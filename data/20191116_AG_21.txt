@@ -1,0 +1,124 @@
+* Block Type = 96-Well 0.2-mL Block
+* Calibration Background is expired  = No
+* Calibration Background performed on = 09-24-2018
+* Calibration Pure Dye ABY is expired = No
+* Calibration Pure Dye ABY performed on = 09-24-2018
+* Calibration Pure Dye FAM is expired = No
+* Calibration Pure Dye FAM performed on = 09-24-2018
+* Calibration Pure Dye JUN is expired = No
+* Calibration Pure Dye JUN performed on = 09-24-2018
+* Calibration Pure Dye NED is expired = No
+* Calibration Pure Dye NED performed on = 09-24-2018
+* Calibration Pure Dye ROX is expired = No
+* Calibration Pure Dye ROX performed on = 09-24-2018
+* Calibration Pure Dye SYBR is expired = No
+* Calibration Pure Dye SYBR performed on = 09-24-2018
+* Calibration Pure Dye TAMRA is expired = No
+* Calibration Pure Dye TAMRA performed on = 09-24-2018
+* Calibration Pure Dye VIC is expired = No
+* Calibration Pure Dye VIC performed on = 09-24-2018
+* Calibration ROI is expired  = No
+* Calibration ROI performed on = 09-24-2018
+* Calibration Uniformity is expired  = No
+* Calibration Uniformity performed on = 09-24-2018
+* Chemistry = TAQMAN
+* Date Created = 2019-11-19 14:25:10 PM CST
+* Experiment Barcode = NA
+* Experiment Comment = NA
+* Experiment File Name = E:\20191116_AG_21.eds
+* Experiment Name = 20191116_AG_21
+* Experiment Run End Time = 2019-11-16 16:42:08 PM CST
+* Experiment Type = Standard Curve
+* Instrument Name =       272320406
+* Instrument Serial Number = 272320406
+* Instrument Type = QuantStudio™ 3 System
+* Passive Reference = ROX
+* Post-read Stage/Step = 
+* Pre-read Stage/Step = 
+* Quantification Cycle Method = Ct
+* Signal Smoothing On = true
+* Stage/ Cycle where Ct Analysis is performed = Stage2, Step2
+* User Name = NA
+
+[Results]
+Well	Well Position	Omit	Sample Name	Target Name	Task	Reporter	Quencher	CT	Ct Mean	Ct SD	Quantity	Quantity Mean	Quantity SD	Y-Intercept	R(superscript 2)	Slope	Efficiency	Automatic Ct Threshold	Ct Threshold	Automatic Baseline	Baseline Start	Baseline End	Amp Status	Comments	EXPFAIL	HIGHSD	NOAMP
+3	A3	false	S 1-MC-5	Mcav	UNKNOWN	FAM	NFQ-MGB	17.420	17.105	0.446								false	0.010	true	3	16	Amp		N	N	N
+4	A4	false	S 2-MC-2	Mcav	UNKNOWN	FAM	NFQ-MGB	18.502	18.401	0.143								false	0.010	true	3	17	Amp		N	N	N
+5	A5	false	S 2-MC-5	Mcav	UNKNOWN	FAM	NFQ-MGB	17.899	17.495	0.571								false	0.010	true	3	16	Amp		N	Y	N
+6	A6	false	W 3 MC 1	Mcav	UNKNOWN	FAM	NFQ-MGB	18.330	18.322	0.011								false	0.010	true	3	17	Amp		N	N	N
+8	A8	false	S 3-MC-3	Mcav	UNKNOWN	FAM	NFQ-MGB	16.987	16.817	0.240								false	0.010	true	3	16	Amp		N	N	N
+9	A9	false	S 3-MC-4	Mcav	UNKNOWN	FAM	NFQ-MGB	18.513	18.264	0.352								false	0.010	true	3	17	Amp		N	N	N
+11	A11	false	+	Mcav	UNKNOWN	FAM	NFQ-MGB	23.687	23.862	0.247								false	0.010	true	3	23	Amp		N	N	N
+12	A12	false	NCT	Mcav	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	N
+15	B3	false	S 1-MC-5	Mcav	UNKNOWN	FAM	NFQ-MGB	16.790	17.105	0.446								false	0.010	true	3	16	Amp		N	N	N
+16	B4	false	S 2-MC-2	Mcav	UNKNOWN	FAM	NFQ-MGB	18.300	18.401	0.143								false	0.010	true	3	17	Amp		N	N	N
+17	B5	false	S 2-MC-5	Mcav	UNKNOWN	FAM	NFQ-MGB	17.091	17.495	0.571								false	0.010	true	3	16	Amp		N	Y	N
+18	B6	false	W 3 MC 1	Mcav	UNKNOWN	FAM	NFQ-MGB	18.315	18.322	0.011								false	0.010	true	3	17	Amp		N	N	N
+20	B8	false	S 3-MC-3	Mcav	UNKNOWN	FAM	NFQ-MGB	16.647	16.817	0.240								false	0.010	true	3	15	Amp		N	N	N
+21	B9	false	S 3-MC-4	Mcav	UNKNOWN	FAM	NFQ-MGB	18.015	18.264	0.352								false	0.010	true	3	17	Amp		N	N	N
+23	B11	false	+	Mcav	UNKNOWN	FAM	NFQ-MGB	24.036	23.862	0.247								false	0.010	true	3	22	Amp		N	N	N
+24	B12	false	NCT	Mcav	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
+27	C3	false	S 1-MC-5	A	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
+28	C4	false	S 2-MC-2	A	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
+29	C5	false	S 2-MC-5	A	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	16	No Amp		N	N	Y
+30	C6	false	W 3 MC 1	A	UNKNOWN	FAM	NFQ-MGB	Undetermined	21.645									false	0.010	true	3	39	No Amp		Y	N	Y
+32	C8	false	S 3-MC-3	A	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	N
+33	C9	false	S 3-MC-4	A	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
+35	C11	false	+	A	UNKNOWN	FAM	NFQ-MGB	21.709	21.858	0.210								false	0.010	true	3	20	Amp		N	N	N
+36	C12	false	NCT	A	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
+39	D3	false	S 1-MC-5	A	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	N
+40	D4	false	S 2-MC-2	A	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	21	No Amp		N	N	Y
+41	D5	false	S 2-MC-5	A	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	33	No Amp		N	N	Y
+42	D6	false	W 3 MC 1	A	UNKNOWN	FAM	NFQ-MGB	21.645	21.645									false	0.010	true	3	12	No Amp		N	N	Y
+44	D8	false	S 3-MC-3	A	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	22	No Amp		N	N	Y
+45	D9	false	S 3-MC-4	A	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
+47	D11	false	+	A	UNKNOWN	FAM	NFQ-MGB	22.006	21.858	0.210								false	0.010	true	3	22	Amp		N	N	N
+48	D12	false	NCT	A	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
+51	E3	false	S 1-MC-5	B	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
+52	E4	false	S 2-MC-2	B	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
+53	E5	false	S 2-MC-5	B	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
+54	E6	false	W 3 MC 1	B	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
+56	E8	false	S 3-MC-3	B	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
+57	E9	false	S 3-MC-4	B	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
+59	E11	false	+	B	UNKNOWN	FAM	NFQ-MGB	24.790	25.089	0.423								false	0.010	true	3	23	Amp		N	N	N
+60	E12	false	NCT	B	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	20	No Amp		N	N	Y
+63	F3	false	S 1-MC-5	B	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	N
+64	F4	false	S 2-MC-2	B	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	35	No Amp		N	N	Y
+65	F5	false	S 2-MC-5	B	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
+66	F6	false	W 3 MC 1	B	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	13	No Amp		N	N	Y
+68	F8	false	S 3-MC-3	B	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
+69	F9	false	S 3-MC-4	B	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	10	No Amp		N	N	Y
+71	F11	false	+	B	UNKNOWN	FAM	NFQ-MGB	25.388	25.089	0.423								false	0.010	true	3	25	Amp		N	N	N
+72	F12	false	NCT	B	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	25	No Amp		N	N	N
+75	G3	false	S 1-MC-5	C	UNKNOWN	VIC	NFQ-MGB	25.266	25.255	0.015								false	0.010	true	3	24	Amp		N	N	N
+75	G3	false	S 1-MC-5	D	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
+76	G4	false	S 2-MC-2	C	UNKNOWN	VIC	NFQ-MGB	24.282	23.935	0.489								false	0.010	true	3	23	Amp		N	N	N
+76	G4	false	S 2-MC-2	D	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
+77	G5	false	S 2-MC-5	C	UNKNOWN	VIC	NFQ-MGB	32.641	32.914	0.385								false	0.010	true	3	31	Amp		N	N	N
+77	G5	false	S 2-MC-5	D	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
+78	G6	false	W 3 MC 1	C	UNKNOWN	VIC	NFQ-MGB	32.081	30.961	1.583								false	0.010	true	3	31	Amp		N	Y	N
+78	G6	false	W 3 MC 1	D	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
+80	G8	false	S 3-MC-3	C	UNKNOWN	VIC	NFQ-MGB	24.179	24.198	0.027								false	0.010	true	3	23	Amp		N	N	N
+80	G8	false	S 3-MC-3	D	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
+81	G9	false	S 3-MC-4	C	UNKNOWN	VIC	NFQ-MGB	26.128	25.908	0.311								false	0.010	true	3	25	Amp		N	N	N
+81	G9	false	S 3-MC-4	D	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
+83	G11	false	+	C	UNKNOWN	VIC	NFQ-MGB	22.251	22.078	0.244								false	0.010	true	3	21	Amp		N	N	N
+83	G11	false	+	D	UNKNOWN	FAM	NFQ-MGB	19.349	19.456	0.150								false	0.010	true	3	18	Amp		N	N	N
+84	G12	false	NCT	C	UNKNOWN	VIC	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
+84	G12	false	NCT	D	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
+87	H3	false	S 1-MC-5	C	UNKNOWN	VIC	NFQ-MGB	25.244	25.255	0.015								false	0.010	true	3	24	Amp		N	N	N
+87	H3	false	S 1-MC-5	D	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
+88	H4	false	S 2-MC-2	C	UNKNOWN	VIC	NFQ-MGB	23.589	23.935	0.489								false	0.010	true	3	22	Amp		N	N	N
+88	H4	false	S 2-MC-2	D	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
+89	H5	false	S 2-MC-5	C	UNKNOWN	VIC	NFQ-MGB	33.186	32.914	0.385								false	0.010	true	3	32	Amp		N	N	N
+89	H5	false	S 2-MC-5	D	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
+90	H6	false	W 3 MC 1	C	UNKNOWN	VIC	NFQ-MGB	29.842	30.961	1.583								false	0.010	true	3	28	Amp		N	Y	N
+90	H6	false	W 3 MC 1	D	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
+92	H8	false	S 3-MC-3	C	UNKNOWN	VIC	NFQ-MGB	24.217	24.198	0.027								false	0.010	true	3	23	Amp		N	N	N
+92	H8	false	S 3-MC-3	D	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
+93	H9	false	S 3-MC-4	C	UNKNOWN	VIC	NFQ-MGB	25.689	25.908	0.311								false	0.010	true	3	25	Amp		N	N	N
+93	H9	false	S 3-MC-4	D	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
+95	H11	false	+	C	UNKNOWN	VIC	NFQ-MGB	21.906	22.078	0.244								false	0.010	true	3	21	Amp		N	N	N
+95	H11	false	+	D	UNKNOWN	FAM	NFQ-MGB	19.562	19.456	0.150								false	0.010	true	3	17	Amp		N	N	N
+96	H12	false	NCT	C	UNKNOWN	VIC	NFQ-MGB	Undetermined										false	0.010	true	3	35	No Amp		N	N	Y
+96	H12	false	NCT	D	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
