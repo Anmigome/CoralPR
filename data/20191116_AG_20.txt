@@ -22,7 +22,7 @@
 * Calibration Uniformity is expired  = No
 * Calibration Uniformity performed on = 09-24-2018
 * Chemistry = TAQMAN
-* Date Created = 2019-11-20 14:07:30 PM CST
+* Date Created = 2019-11-22 12:29:11 PM CST
 * Experiment Barcode = NA
 * Experiment Comment = NA
 * Experiment File Name = E:\20191116_AG_20.eds
@@ -130,8 +130,7 @@ Well	Well Position	Omit	Sample Name	Target Name	Task	Reporter	Quencher	CT	Ct Mea
 80	G8	false	W 3 OF 1	D	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
 81	G9	false	W 3 OF 2	C	UNKNOWN	VIC	NFQ-MGB	24.998	24.852	0.206								false	0.010	true	3	24	Amp		N	N	N
 81	G9	false	W 3 OF 2	D	UNKNOWN	FAM	NFQ-MGB	Undetermined	32.377									false	0.010	true	3	39	No Amp		Y	N	Y
-82	G10	false	S 3-OF-3	C	UNKNOWN	VIC	NFQ-MGB	24.766	25.120	0.501								false	0.010	true	3	23	Amp		N	Y	N
-82	G10	false	S 3-OF-3	D	UNKNOWN	FAM	NFQ-MGB	32.493	32.493									false	0.010	true	3	31	Amp		N	N	N
+82	G10	false	S 3-OF-3	C	UNKNOWN	VIC	NFQ-MGB	24.792	25.114	0.455								false	0.010	true	3	23	Amp		N	N	N
 83	G11	false	+	C	UNKNOWN	VIC	NFQ-MGB	21.640	21.689	0.069								false	0.010	true	3	20	Amp		N	N	N
 83	G11	false	+	D	UNKNOWN	FAM	NFQ-MGB	18.478	18.803	0.460								false	0.010	true	3	16	Amp		N	N	N
 84	G12	false	NCT	C	UNKNOWN	VIC	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
@@ -154,8 +153,7 @@ Well	Well Position	Omit	Sample Name	Target Name	Task	Reporter	Quencher	CT	Ct Mea
 92	H8	false	W 3 OF 1	D	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
 93	H9	false	W 3 OF 2	C	UNKNOWN	VIC	NFQ-MGB	24.706	24.852	0.206								false	0.010	true	3	24	Amp		N	N	N
 93	H9	false	W 3 OF 2	D	UNKNOWN	FAM	NFQ-MGB	32.377	32.377									false	0.010	true	3	31	Amp		N	N	N
-94	H10	false	S 3-OF-3	C	UNKNOWN	VIC	NFQ-MGB	25.474	25.120	0.501								false	0.010	true	3	24	Amp		N	Y	N
-94	H10	false	S 3-OF-3	D	UNKNOWN	FAM	NFQ-MGB	Undetermined	32.493									false	0.010	true	3	39	No Amp		Y	N	Y
+94	H10	false	S 3-OF-3	C	UNKNOWN	VIC	NFQ-MGB	25.436	25.114	0.455								false	0.010	true	3	24	Amp		N	N	N
 95	H11	false	+	C	UNKNOWN	VIC	NFQ-MGB	21.737	21.689	0.069								false	0.010	true	3	20	Amp		N	N	N
 95	H11	false	+	D	UNKNOWN	FAM	NFQ-MGB	19.128	18.803	0.460								false	0.010	true	3	18	Amp		N	N	N
 96	H12	false	NCT	C	UNKNOWN	VIC	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y

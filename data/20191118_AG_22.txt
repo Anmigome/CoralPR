@@ -22,7 +22,7 @@
 * Calibration Uniformity is expired  = No
 * Calibration Uniformity performed on = 09-24-2018
 * Chemistry = TAQMAN
-* Date Created = 2019-11-19 14:30:39 PM CST
+* Date Created = 2019-11-22 12:30:26 PM CST
 * Experiment Barcode = NA
 * Experiment Comment = NA
 * Experiment File Name = E:\20191118_AG_22.eds
@@ -67,8 +67,8 @@ Well	Well Position	Omit	Sample Name	Target Name	Task	Reporter	Quencher	CT	Ct Mea
 28	C4	false	S 5-MC-4	A	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
 29	C5	false	S 5-MC-5	A	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
 30	C6	false	S 6-MC-1	A	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	11	No Amp		N	N	Y
-31	C7	false	S 6-MC-2	A	UNKNOWN	FAM	NFQ-MGB	Undetermined	38.953									false	0.010	true	3	33	No Amp		N	N	Y
-32	C8	false	S 3-MC-5	A	UNKNOWN	FAM	NFQ-MGB	Undetermined	39.567									false	0.010	true	3	39	No Amp		Y	N	Y
+31	C7	false	S 6-MC-2	A	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	33	No Amp		N	N	Y
+32	C8	false	S 3-MC-5	A	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
 33	C9	false	S 4-MC-2	A	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
 34	C10	false	S 4-MC-3	A	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
 35	C11	false	+	A	UNKNOWN	FAM	NFQ-MGB	21.458	21.649	0.270								false	0.010	true	3	20	Amp		N	N	N
@@ -78,8 +78,6 @@ Well	Well Position	Omit	Sample Name	Target Name	Task	Reporter	Quencher	CT	Ct Mea
 40	D4	false	S 5-MC-4	A	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	21	No Amp		N	N	Y
 41	D5	false	S 5-MC-5	A	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	N
 42	D6	false	S 6-MC-1	A	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
-43	D7	false	S 6-MC-2	A	UNKNOWN	FAM	NFQ-MGB	38.953	38.953									false	0.010	true	3	39	No Amp		Y	N	N
-44	D8	false	S 3-MC-5	A	UNKNOWN	FAM	NFQ-MGB	39.567	39.567									false	0.010	true	3	39	No Amp		Y	N	N
 45	D9	false	S 4-MC-2	A	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	N
 46	D10	false	S 4-MC-3	A	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	N
 47	D11	false	+	A	UNKNOWN	FAM	NFQ-MGB	21.840	21.649	0.270								false	0.010	true	3	21	Amp		N	N	N
@@ -90,7 +88,6 @@ Well	Well Position	Omit	Sample Name	Target Name	Task	Reporter	Quencher	CT	Ct Mea
 53	E5	false	S 5-MC-5	B	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
 54	E6	false	S 6-MC-1	B	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	N
 55	E7	false	S 6-MC-2	B	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
-56	E8	false	S 3-MC-5	B	UNKNOWN	FAM	NFQ-MGB	30.925	30.925									false	0.010	true	3	28	No Amp		N	N	N
 57	E9	false	S 4-MC-2	B	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
 58	E10	false	S 4-MC-3	B	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
 59	E11	false	+	B	UNKNOWN	FAM	NFQ-MGB	25.588	24.782	1.139								false	0.010	true	3	24	Amp		N	Y	N
@@ -101,7 +98,7 @@ Well	Well Position	Omit	Sample Name	Target Name	Task	Reporter	Quencher	CT	Ct Mea
 65	F5	false	S 5-MC-5	B	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
 66	F6	false	S 6-MC-1	B	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
 67	F7	false	S 6-MC-2	B	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
-68	F8	false	S 3-MC-5	B	UNKNOWN	FAM	NFQ-MGB	Undetermined	30.925									false	0.010	true	3	39	No Amp		Y	N	Y
+68	F8	false	S 3-MC-5	B	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
 69	F9	false	S 4-MC-2	B	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
 70	F10	false	S 4-MC-3	B	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
 71	F11	false	+	B	UNKNOWN	FAM	NFQ-MGB	23.977	24.782	1.139								false	0.010	true	3	22	Amp		N	Y	N
@@ -116,8 +113,7 @@ Well	Well Position	Omit	Sample Name	Target Name	Task	Reporter	Quencher	CT	Ct Mea
 77	G5	false	S 5-MC-5	D	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
 78	G6	false	S 6-MC-1	C	UNKNOWN	VIC	NFQ-MGB	23.577	23.723	0.207								false	0.010	true	3	22	Amp		N	N	N
 78	G6	false	S 6-MC-1	D	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
-79	G7	false	S 6-MC-2	C	UNKNOWN	VIC	NFQ-MGB	26.035	25.613	0.597								false	0.010	true	3	25	Amp		N	Y	N
-79	G7	false	S 6-MC-2	D	UNKNOWN	FAM	NFQ-MGB	39.945	39.945									false	0.010	true	3	39	No Amp		Y	N	Y
+79	G7	false	S 6-MC-2	C	UNKNOWN	VIC	NFQ-MGB	26.051	25.803	0.351								false	0.010	true	3	25	Amp		N	N	N
 80	G8	false	S 3-MC-5	C	UNKNOWN	VIC	NFQ-MGB	25.279	25.015	0.374								false	0.010	true	3	24	Amp		N	N	N
 80	G8	false	S 3-MC-5	D	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
 81	G9	false	S 4-MC-2	C	UNKNOWN	VIC	NFQ-MGB	24.399	24.562	0.231								false	0.010	true	3	23	Amp		N	N	N
@@ -138,8 +134,7 @@ Well	Well Position	Omit	Sample Name	Target Name	Task	Reporter	Quencher	CT	Ct Mea
 89	H5	false	S 5-MC-5	D	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
 90	H6	false	S 6-MC-1	C	UNKNOWN	VIC	NFQ-MGB	23.869	23.723	0.207								false	0.010	true	3	23	Amp		N	N	N
 90	H6	false	S 6-MC-1	D	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
-91	H7	false	S 6-MC-2	C	UNKNOWN	VIC	NFQ-MGB	25.191	25.613	0.597								false	0.010	true	3	24	Amp		N	Y	N
-91	H7	false	S 6-MC-2	D	UNKNOWN	FAM	NFQ-MGB	Undetermined	39.945									false	0.010	true	3	39	No Amp		Y	N	Y
+91	H7	false	S 6-MC-2	C	UNKNOWN	VIC	NFQ-MGB	25.555	25.803	0.351								false	0.010	true	3	25	Amp		N	N	N
 92	H8	false	S 3-MC-5	C	UNKNOWN	VIC	NFQ-MGB	24.750	25.015	0.374								false	0.010	true	3	24	Amp		N	N	N
 92	H8	false	S 3-MC-5	D	UNKNOWN	FAM	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	Y
 93	H9	false	S 4-MC-2	C	UNKNOWN	VIC	NFQ-MGB	24.725	24.562	0.231								false	0.010	true	3	24	Amp		N	N	N

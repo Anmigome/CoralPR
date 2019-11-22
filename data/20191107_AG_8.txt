@@ -22,7 +22,7 @@
 * Calibration Uniformity is expired  = No
 * Calibration Uniformity performed on = 09-24-2018
 * Chemistry = TAQMAN
-* Date Created = 2019-11-19 13:32:54 PM CST
+* Date Created = 2019-11-22 12:23:54 PM CST
 * Experiment Barcode = NA
 * Experiment Comment = NA
 * Experiment File Name = E:\20191107_AG_8.eds
@@ -120,12 +120,10 @@ Well	Well Position	Omit	Sample Name	Target Name	Task	Reporter	Quencher	CT	Ct Mea
 74	G2	false	W 5 OF 2	D	UNKNOWN	FAM	NFQ-MGB	28.330	28.316	0.020								false	0.010	true	3	27	Amp		N	N	N	N	N	N	N	N
 75	G3	false	W 5 OF 3	C	UNKNOWN	VIC	NFQ-MGB	34.426	35.360	1.321								false	0.010	true	3	33	Amp		N	N	N	Y	N	N	N	N
 75	G3	false	W 5 OF 3	D	UNKNOWN	FAM	NFQ-MGB	23.561	24.101	0.763								false	0.010	true	3	22	Amp		N	N	N	Y	N	N	N	N
-76	G4	false	W 5 OF 4	C	UNKNOWN	VIC	NFQ-MGB	37.160	37.160									false	0.010	true	3	35	Inconclusive		N	N	N	N	N	N	N	N
-76	G4	false	W 5 OF 4	D	UNKNOWN	FAM	NFQ-MGB	27.506	28.132	0.885								false	0.010	true	3	27	Amp		N	N	N	Y	N	N	N	N
+76	G4	false	W 5 OF 4	D	UNKNOWN	FAM	NFQ-MGB	27.292	28.037	1.053								false	0.010	true	3	25	Amp		N	N	N	Y	N	N	N	N
 77	G5	false	W 5 OF 5	C	UNKNOWN	VIC	NFQ-MGB	33.808	33.979	0.241								false	0.010	true	3	32	Amp		N	N	N	N	N	N	N	N
 77	G5	false	W 5 OF 5	D	UNKNOWN	FAM	NFQ-MGB	23.392	24.285	1.262								false	0.010	true	3	22	Amp		N	N	N	Y	N	N	N	N
-78	G6	false	W 6 OF 1	C	UNKNOWN	VIC	NFQ-MGB	34.928	34.928									false	0.010	true	3	34	Inconclusive		N	N	N	N	N	N	N	N
-78	G6	false	W 6 OF 1	D	UNKNOWN	FAM	NFQ-MGB	33.117	33.484	0.520								false	0.010	true	3	32	Amp		N	N	N	Y	N	N	N	N
+78	G6	false	W 6 OF 1	D	UNKNOWN	FAM	NFQ-MGB	33.250	33.565	0.446								false	0.010	true	3	32	Amp		N	N	N	N	N	N	N	N
 79	G7	false	W 6 OF 2	C	UNKNOWN	VIC	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	N	N	N	Y	N	N
 79	G7	false	W 6 OF 2	D	UNKNOWN	FAM	NFQ-MGB	31.768	31.453	0.447								false	0.010	true	3	30	Amp		N	N	N	N	N	N	N	N
 80	G8	false	W 6 OF 3	C	UNKNOWN	VIC	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	N	N	N	Y	N	N
@@ -142,12 +140,10 @@ Well	Well Position	Omit	Sample Name	Target Name	Task	Reporter	Quencher	CT	Ct Mea
 86	H2	false	W 5 OF 2	D	UNKNOWN	FAM	NFQ-MGB	28.302	28.316	0.020								false	0.010	true	3	26	Amp		N	N	N	N	N	N	N	N
 87	H3	false	W 5 OF 3	C	UNKNOWN	VIC	NFQ-MGB	36.295	35.360	1.321								false	0.010	true	3	35	Inconclusive		N	N	N	Y	N	N	N	N
 87	H3	false	W 5 OF 3	D	UNKNOWN	FAM	NFQ-MGB	24.641	24.101	0.763								false	0.010	true	3	24	Amp		N	N	N	Y	N	N	N	N
-88	H4	false	W 5 OF 4	C	UNKNOWN	VIC	NFQ-MGB	Undetermined	37.160									false	0.010	true	3	39	No Amp		Y	N	N	N	N	Y	N	N
-88	H4	false	W 5 OF 4	D	UNKNOWN	FAM	NFQ-MGB	28.758	28.132	0.885								false	0.010	true	3	27	Amp		N	N	N	Y	N	N	N	N
+88	H4	false	W 5 OF 4	D	UNKNOWN	FAM	NFQ-MGB	28.781	28.037	1.053								false	0.010	true	3	27	Amp		N	N	N	Y	N	N	N	N
 89	H5	false	W 5 OF 5	C	UNKNOWN	VIC	NFQ-MGB	34.149	33.979	0.241								false	0.010	true	3	32	Amp		N	N	N	N	N	N	N	N
 89	H5	false	W 5 OF 5	D	UNKNOWN	FAM	NFQ-MGB	25.177	24.285	1.262								false	0.010	true	3	23	Amp		N	N	N	Y	N	N	N	N
-90	H6	false	W 6 OF 1	C	UNKNOWN	VIC	NFQ-MGB	Undetermined	34.928									false	0.010	true	3	39	No Amp		Y	N	N	N	N	Y	N	N
-90	H6	false	W 6 OF 1	D	UNKNOWN	FAM	NFQ-MGB	33.851	33.484	0.520								false	0.010	true	3	32	Inconclusive		N	N	N	Y	N	N	N	N
+90	H6	false	W 6 OF 1	D	UNKNOWN	FAM	NFQ-MGB	33.881	33.565	0.446								false	0.010	true	3	32	Inconclusive		N	N	N	N	N	N	N	N
 91	H7	false	W 6 OF 2	C	UNKNOWN	VIC	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	N	N	N	Y	N	N
 91	H7	false	W 6 OF 2	D	UNKNOWN	FAM	NFQ-MGB	31.137	31.453	0.447								false	0.010	true	3	30	Amp		N	N	N	N	N	N	N	N
 93	H9	false	W 6 OF 4	C	UNKNOWN	VIC	NFQ-MGB	Undetermined										false	0.010	true	3	39	No Amp		Y	N	N	N	N	Y	N	N
