@@ -44,23 +44,38 @@ head(qpcr)
 
 #Organizing Raw Data 
 ```{r}
-# Change NA Orb values to 27
-# qpcr <- qpcr %>% 
-#   mutate(Ofav.CT.mean = ifelse(is.na(Ofav.CT.mean), 27, Ofav.CT.mean))
 
 # Show samples that didn't work
 fails <- qpcr %>%
   filter(!(Sample.Name %in% c("+", "NCT"))) %>%
   filter(is.na(C.Ofav) & is.na(D.Ofav) & is.na(A.Ofav) & is.na(B.Ofav)) %>%
   filter(is.na(C.Mcav) & is.na(D.Mcav) & is.na(A.Mcav) & is.na(B.Mcav))
-  
+
+onerep <- qpcr %>%
+  mutate(A.Mcav = case_when(A.reps==1 ~ NaN, 
+                            A.reps!=1 ~ A.Mcav), 
+         B.Mcav = case_when(B.reps==1 ~ NaN, 
+                            B.reps!=1 ~ B.Mcav),
+         C.Mcav = case_when(C.reps==1 ~ NaN, 
+                            C.reps!=1 ~ C.Mcav), 
+         D.Mcav = case_when(D.reps==1 ~ NaN, 
+                            D.reps!=1 ~ D.Mcav), 
+         A.Ofav = case_when(A.reps==1 ~ NaN, 
+                            A.reps!=1 ~ A.Ofav),
+         B.Ofav = case_when(B.reps==1 ~ NaN, 
+                            B.reps!=1 ~ B.Ofav),
+         C.Ofav = case_when(C.reps==1 ~ NaN, 
+                            C.reps!=1 ~ C.Ofav),
+         D.Ofav = case_when(D.reps==1 ~ NaN, 
+                            D.reps!=1 ~ D.Ofav)) 
+        
 # Filter out samples that didn't amplify and positive controls
-qpcr_good <- qpcr %>%
+qpcr_good <- onerep %>%
   filter(!(is.na(C.Ofav) & is.na(D.Ofav) & is.na(A.Ofav) & is.na(B.Ofav))) %>%
   filter(Sample.Name != "+") %>%
   filter(Sample.Name != "NCT")
 
-qpcr_good1 <- qpcr %>%  
+qpcr_good1 <- onerep %>%  
   filter(!(is.na(C.Mcav) & is.na(D.Mcav) & is.na(A.Mcav) & is.na(B.Mcav))) %>%
   filter(Sample.Name != "+") %>%
   filter(Sample.Name != "NCT")
@@ -163,21 +178,21 @@ ggplot(sym_commun1, aes(x = Sample.Name, y = value, fill = sym)) +
 ggplot(sym_commun, aes(x = Sample.Name, y = value, fill = sym)) +
   geom_bar(stat = "identity", position = "fill") +
   ylab("Proportion of Symbiodiniaceae Genera") +
-  facet_wrap(~ Colony, scales = "free") +
+  facet_wrap(~Colony + Season + Depth, scales = "free") +
   theme(axis.text = element_text(angle = 45))
 
 # Stacked Bar Plot showing symbiont composition separated by colony Mcav
 ggplot(sym_commun1, aes(x = Sample.Name, y = value, fill = sym)) +
   geom_bar(stat = "identity", position = "fill") +
   ylab("Proportion of Symbiodiniaceae Genera") +
-  facet_wrap(~ Colony, scales = "free") +
+  facet_wrap(~ Season, scales = "free") +
   theme(axis.text = element_text(angle = 45))
 
 # Stacked Bar Plot showing symbiont composition separated by colony AND season Ofav
 ggplot(sym_commun, aes(x = Sample.Name, y = value, fill = sym)) +
   geom_bar(stat = "identity", position = "fill") +
   ylab("Proportion of Symbiodiniaceae Genera") +
-  facet_wrap(~ Colony + Season, scales = "free")
+  facet_wrap(~ Colony + Season +Depth, scales = "free")
 
 # Stacked Bar Plot showing symbiont composition separated by colony AND season Mcav
 ggplot(sym_commun1, aes(x = Sample.Name, y = value, fill = sym)) +
@@ -188,27 +203,98 @@ ggplot(sym_commun1, aes(x = Sample.Name, y = value, fill = sym)) +
 
 
 ```{r}
+# symbiont to host ratios for Ofav
 boxplot(log10(qpcr_good$totSH))
 
-ggplot(qpcr_all_info, aes(x = factor(Colony), y = log10(totSH))) +
+ggplot(qpcr_good, aes(x = factor(Colony), y = log10(totSH), shape = Season)) +
   geom_point()
 
 
+ggplot(qpcr_good, aes(x = factor(Colony), y = Ofav.CT.mean, shape = Season)) +
+  geom_point()
+
+
+
+# symbiont to host ratios for Mcav
+boxplot(log10(qpcr_good1$totSH))
+
+ggplot(qpcr_good1, aes(x = factor(Colony), y = log10(totSH), shape = Season)) +
+  geom_point()
+
+
+ggplot(qpcr_good1, aes(x = factor(Colony), y = Mcav.CT.mean, shape = Season)) +
+  geom_point()
+
 ```
 
 ```{r}
-ggplot(qpcr_all_info, aes(x = Ofav.CT.mean)) +
-  geom_histogram()
+# NMDS for Ofav
 
+ofav <- qpcr_good %>%
+  select(Sample.Name, Colony, Season, Depth, A.prop, B.prop, C.prop, D.prop)
+
+sym_mat <- as.matrix(select(ofav, A.prop, B.prop, C.prop, D.prop))
+
+library(vegan)
+nmds <- metaMDS(sym_mat, k = 2)
+
+nmds_points <- cbind(ofav, nmds$points)
+
+ggplot(nmds_points, aes(x = MDS1, y = MDS2, color = factor(Colony), shape = factor(Colony))) +
+  geom_point()
 ```
 
 ```{r}
-hist()
+# statistically test differences in proportions clades
+mod <- glm(A.prop ~ factor(Colony) * Season, data = ofav, family = "quasibinomial")
 
+library(lsmeans)
+lsm <- lsmeans(mod, specs = c("Colony", "Season"), type = "response")
+contrast(lsm, by = "Colony", method = "pairwise")
+
+mod1 <- glm(B.prop ~ factor(Colony) * Season, data = ofav, family = "quasibinomial")
+
+lsm1 <- lsmeans(mod1, specs = c("Colony", "Season"), type = "response")
+contrast(lsm1, by = "Colony", method = "pairwise")
+
+mod2 <- glm(C.prop ~ factor(Colony) * Season, data = ofav, family = "quasibinomial")
+
+lsm2 <- lsmeans(mod2, specs = c("Colony", "Season"), type = "response")
+contrast(lsm2, by = "Colony", method = "pairwise")
+
+mod3 <- glm(D.prop ~ factor(Colony) * Season, data = ofav, family = "quasibinomial")
+
+lsm3 <- lsmeans(mod3, specs = c("Colony", "Season"), type = "response")
+contrast(lsm3, by = "Colony", method = "pairwise")
 
 ```
 
 
+```{r}
+# beta diversity of each colony - including summer and winter together
+bcdist <- vegdist(sqrt(sym_mat), method = "bray")
+bdisper <- betadisper(bcdist, group = ofav$Colony, type = "centroid")
+ofav <- cbind(ofav, dist = bdisper$distances)
+ggplot(ofav, aes(x = factor(Colony), y = dist)) +
+  geom_point()
+permutest(bdisper, pairwise = T)
+
+
+# beta diversity of each colony - including summer and winter together
+bcdist <- vegdist(sqrt(sym_mat), method = "bray")
+bdisper <- betadisper(bcdist, group = interaction(ofav$Colony, ofav$Season), type = "centroid")
+ofav <- cbind(ofav, dist2 = bdisper$distances)
+ggplot(ofav, aes(x = interaction(Season, factor(Colony)), y = dist2)) +
+  geom_boxplot() +
+  geom_point()
+permutest(bdisper, pairwise = T)
+
+# is beta diversity different in summer vs winter? (colony as random factor, just interested in season)
+library(lme4)
+mod <- lmer(dist2 ~ Season + (1|Colony), data = ofav)
+lsm <- lsmeans(mod, specs = "Season")
+contrast(lsm, "pairwise")
+```
 
 
 
